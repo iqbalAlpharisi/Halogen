@@ -1,0 +1,399 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: 'Montserrat' !important;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none !important;
+    color: inherit;
+  }
+body::-webkit-scrollbar {
+    display: none;
+  }
+.navbar {
+    background-color: #ABA290;
+    padding: 0;
+    width: 100%;
+
+}
+.btn{
+    border-radius: 0;
+}
+.navbar .btn{
+    margin-top: 6.5px;
+    padding: 0.3rem 2rem;
+}
+#linkmain>.nav-item{
+    color: black;
+}
+.navbar-nav>.nav-item:hover{
+    color: rgb(255, 200, 71)
+}
+.logprofile{
+    font-size: 2rem;
+    margin: 0 1.5rem;
+    transition: 0.3s;
+    color: black;
+
+}.logprofile:hover{
+    color: rgb(255, 200, 71)}
+
+
+
+.card{
+    border: 0;
+    margin-bottom: 5rem;
+}
+.card-img-overlay{
+    margin-block: 7rem;
+}
+.tentang{
+    padding-inline: 10rem;
+    margin-bottom: 5rem;
+}
+#layout{
+    margin-left: 2rem;
+}
+.photo1{
+    padding: 0;
+    width: 17.5rem;
+    height: 15.6rem;
+    margin-left: 5rem;
+
+}
+.photo2{
+    padding: 0;
+    width: 9.4rem;
+    height: 12.5rem;
+    margin-top: 1.2rem;
+    margin-left: 0.3rem;
+    margin-right: 0;
+
+}
+.photo3{
+    padding: 0;
+    width: 15.6rem;
+    height: 11.2rem;
+    margin-top: 0.8rem;
+    margin-left: 9rem;
+
+}
+.bi-check-circle{
+    color: green;
+}
+.textlay p{
+    font-size: 1.2rem;
+}
+#mulai{
+    margin: 50px 0px;
+}
+.beritabaru>.text-center{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+
+}
+h3+.row{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 15rem;
+}
+.row .col{
+    transition: 0.3s;
+    border: 0;
+}
+.row .col:hover{
+    border-style: solid;
+    border-color: rgb(248, 219, 146);
+    border-width: 0.3rem;
+    border-radius: 0.1%;
+}
+.medsos{
+    padding-inline: 20%;
+    padding-block: 0.3rem;
+    top: 50px;
+
+}
+.medsos .bi{
+    color: white;
+    font-size: 1.3rem;
+    transition: 0.2s;
+
+}
+.medsos .bi:hover{
+    color: rgb(255, 200, 71);
+
+}
+
+
+/* Main Page Style */
+body#main {
+    background-color: rgb(236, 236, 230);
+  }
+/* Nav */
+#navmain{
+    padding: 0;
+    position: absolute;
+    background: linear-gradient(
+        to bottom,
+        rgba(42, 42, 42, 0.85),
+        transparent
+      );
+}
+#linkNavWhite>.nav-item{
+    color: white;
+    transition: 0.3s;
+}
+#linkNavWhite>.nav-item:hover{
+    color: rgb(255, 200, 71);
+}
+
+    
+.profilemain{
+    font-size: 2rem;
+    margin: 0 1.5rem;
+    transition: 0.3s;
+    color: white;
+}
+.profilemain:hover{
+    color:rgb(255, 200, 71) ;
+}
+
+/* Banner */
+.mainbanner{
+    width: 100%;
+    height: 780px;
+}
+.bannerimg{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+#reviewbutton{
+    border: 0;
+    color: black;
+    transition: all 0.5s;
+    background-color: white;
+}
+#reviewbutton:hover{
+    color: aliceblue;
+    background-color: #ABA290;
+}
+#reviewbutton:active{
+    transition: 0.1s;
+    color: white;
+    background-color: rgb(255, 200, 71);
+}
+.caption{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+}
+
+#headerhot{
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+#headerhot:hover{
+    color: rgb(255, 200, 71);
+}
+#headerhot:active{
+    color: #ABA290;
+    transition: 0.1s;
+}
+.hotbanner{
+    left: 300px;
+    bottom: 220px;
+    
+}
+#hotimg img{
+    width: 200px;
+    height: 140px;
+    
+}
+#hotcap{
+    height: fit-content;
+    color: white;
+    font-size: 0.7em;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0.1px;
+    background: linear-gradient(
+        to top,
+        rgba(42, 42, 42, 0.85),
+        transparent
+      );
+}
+
+/* Recome */
+hr#horizonrl{
+    width: 55%;
+    border-top: 3px solid black ;
+}
+hr#horizonrl2{
+    width: 95%;
+    border-top: 3px solid black ;
+}
+.imgrecomendmain{
+    min-width: 800px;
+    max-height: 465px;
+    object-fit: fill;
+   
+}
+.siderecomend img{
+    width: 155px;
+    height: 92px;
+    object-fit: fill;
+
+}
+.linkRecom{
+    color: black;
+    transition: 0.3s;
+}
+.linkRecom:hover{
+    color: rgb(173, 154, 105);
+    text-decoration: underline;
+}
+/* features */
+section.features1{
+    background-color: #ffffff;
+}
+.features img{
+    width: 250px;
+    height: 130px;
+    object-fit: fill;
+}
+.features {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+#tglfeature{
+    font-size: 0.8rem;
+    opacity: 0.5;
+   
+}
+.features div{
+    width: 250px;
+}
+.linkFeature{
+    color: black;
+    transition: 0.3s;
+}
+.linkFeature:hover{
+    color: rgb(224, 176, 64);
+    text-decoration: underline;
+
+}
+/* berita baru */
+.beritaBaru img{
+    width: 320px;
+    height: 212px;
+    object-fit: fill;
+}
+#containBaru{
+    background-color: #ABA290;
+}
+.baruTittle{
+    color: white;
+    transition: 0.3s;
+}
+.baruTittle:hover{
+    text-decoration: underline;
+    color: rgb(248, 219, 146);
+}
+.tglBaru{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.pagination .page-item.active .page-link {
+    background-color: #ABA290; /* Change this to your desired color */
+    border-color: black; /* Change this to your desired color */
+    color: white;
+}
+.pagination .page-item .page-link{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+.pagination .page-item .page-link:hover {
+    border-color:white ;
+}
+button#more{
+    padding: 8px 100px;
+}
+
+/*Detail_page*/
+#thumbnail{
+    height: 560px;
+    width: 1080px;
+    
+}
+body#detail{
+    background-color: rgb(24, 24, 21);
+    color: white;
+}
+#detailBanner{
+    width: 1080px;
+}
+.title{
+    bottom: 0.1px;
+    color: white;
+    background: linear-gradient(
+        to top,
+        rgba(42, 42, 42, 0.85),
+        transparent
+      );
+      text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+      
+}
+#isidetail{
+    padding-left: 195px;
+}
+hr#horizonrl3{
+    width: 50%;
+    border-top: 3px solid white ;
+}
+#trendIMG{
+    width: 100px;
+    height: 50px;
+}
+#titleTrend{
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
